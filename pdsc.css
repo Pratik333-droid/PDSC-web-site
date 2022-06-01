@@ -51,21 +51,30 @@ body
     align-items: center;
     /* border: 2px solid maroon; */
     padding: 0 20pt 0 20pt;
-    box-shadow: 0 10px 10px;
     position: fixed;
+    transition: 0.7s;
+    
+}
+.chipakja
+{
     background-color: #202020;
+    /* background-color: crimson; */
+    /* text-decoration-color: white; */
+    box-shadow: 0 10px 10px;
 
 }
 .menu .menuButtons a
 {
     text-decoration: none;
     color: rgb(204,204,204);
+    transition: 0.7s;
 }
 .menu .menuButtons a:hover
 {
     text-decoration: none;
     /* color: rgb(204,204,204); */
-    color: white;
+    color: crimson;
+    /* font-weight: 500; */
     /* font-size: 24px; */
 }
 
@@ -112,32 +121,45 @@ body
     font-size: 15pt;
     /* height: 30%; */
     padding: 2px;
+    transition: 0.7s;
     
 } 
+#join-us a:hover
+{
+    color: white;
+}
 #join-us:hover
 {
     /* background: linear-gradient(to right, rgb(30, 80, 217), rgb(97, 172, 223)); */
     box-shadow: 0 0 3px;
+    color: white;
     /* width: 125px; */
 }
 
 #where-we-text
 {
     color: rgb(230,230,230);
-    font-size: 59px;
+    font-size: 70px;
     font-family: Helvetica, sans-serif;
     /* margin-bottom: -30pt; */
-    /* margin-top: 100pt ; */
+    margin-top: -30pt ;
     /* padding-top: 30pt; */
     /* border: 2px solid cyan; */
+    width: 50%;
 }
 
 #plan
 {
     color: rgb(230,230,230);
-    font-size: 119px;
+    font-size: 100px;
+    width: 50%;
     font-family: "helvetica-bold", sans-serif;
-    margin-top: -5pt;
+    margin-top: 50px;
+    /* border: 1px solid white; */
+}
+.auto-type
+{
+    color: crimson;
 }
 #and
 {

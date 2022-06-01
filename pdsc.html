@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="pdsc.css">
     <link rel="icon" href="\favicon.ico" type = "image/x-icon" >
     <script src="https://kit.fontawesome.com/e33dda5265.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>PDSC Pulchowk </title>
 </head>
 <body>
@@ -28,8 +29,9 @@
         
         
         <div class="content1">
-            <p id = "where-we-text">where we </p>
-            <p id = "plan">Plan, Design <br>Solve <span id = "and">&</span> Create  </p>
+            <p id ="plan">Welcome to <br> PDSC</p>
+            <p id = "where-we-text">where we <span class="auto-type"></span> </p>
+            <!-- <p id = "plan">Plan, Design <br>Solve <span id = "and">&</span> Create  </p> -->
             <!-- <p id = "plan"></p> -->
 
         </div>
@@ -310,5 +312,15 @@
         <p class = "pratik">Designed by Rajesh Neupane.<br> Developed by Pratik Dahal. <br>&copyPDSC. All rights reserved.</p>
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     <script>
+         var type = new Typed(".auto-type", {strings: ["Plan", "Design", "Solve", "Create"], 
+         typeSpeed: 60, 
+         backSpeed: 60, 
+         loop: 3})
+
+     </script>
+
+     <script src="pdsc.js"></script>
 </body>
 </html>
