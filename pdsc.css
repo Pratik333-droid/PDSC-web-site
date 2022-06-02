@@ -197,7 +197,7 @@ body
 
 .photo-and-text1 img, .photo-and-text2 img
 {
-    max-width: 400pt;
+    max-width: 300pt;
     object-fit: contain;
     border-radius: 10pt;
     /* border: 2px solid blue; */
